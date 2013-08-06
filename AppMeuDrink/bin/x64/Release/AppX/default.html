@@ -1,0 +1,99 @@
+﻿<!doctype html>
+<html lang="pt-BR" class="no-js">
+	<head>
+
+		<!-- Metas -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Meu Drink</title>
+
+         <!-- WinJS references -->
+        <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+        <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+        <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+        <!-- AppMeuDrink references -->
+        <link href="/css/default.css" rel="stylesheet" />
+        <script src="/js/default.js"></script>
+
+		<!-- Style CSS -->
+		<link rel="stylesheet" href="css/app.css">
+
+		<!--
+			Biblioteca Modernizr
+			site: http://modernizr.com/
+			descrição: O Modernizr, uma compacta biblioteca Javascript, oferece uma abordagem diferente 
+			para o uso de novas tecnologias do HTML e CSS. Em vez de basear a renderização de
+			uma propriedade no que é declarado pelo agente do navegador, ele de fato testa a
+			presença da propriedade no próprio navegador do usuário (em questão de
+			milissegundos) e armazena o resultado do teste numa variável dentro de um script.
+		-->
+		<script src="js/modernizr.js"></script>
+
+	</head>
+
+	<body>
+
+        <!-- Image Snapped -->
+        <div id="snappedMode" style="visibility: hidden;">
+            <img id="imgSnapped" src="images/snapped_logo.png">
+        </div>
+
+		<div id="container" class="container">
+			<header class="clearfix">
+				<h1><img src="images/logo-md.png"></h1>
+			</header>
+			<div class="main">
+				<div id="mi-slider" class="mi-slider">
+					<!-- Slider #1 - Sem álcool -->
+					<ul>
+						<li><a href="pages/drinks/drink11.html"><img src="images/1-1.png"><h4>Apple Cider Soda</h4></a></li>
+						<li><a href="pages/drinks/drink12.html"><img src="images/1-2.png"><h4>Limão e gengibre</h4></a></li>
+						<li><a href="pages/drinks/drink13.html"><img src="images/1-3.png"><h4>Virgin on the Beach</h4></a></li>
+						<li><a href="pages/drinks/drink14.html"><img src="images/1-4.png"><h4>Batida de morango</h4></a></li>
+					</ul>
+					<!-- Slider #2 - Conhaque -->
+					<ul>
+						<li><a href="pages/drinks/drink21.html"><img src="images/2-1.png"><h4>Choconhaque</h4></a></li>
+						<li><a href="pages/drinks/drink22.html"><img src="images/2-2.png"><h4>Savoy Corpse Reviver</h4></a></li>
+                        <li><a href="pages/drinks/drink23.html"><img src="images/2-3.png"><h4>Horse’s Neck</h4></a></li>
+						<li><a href="pages/drinks/drink24.html"><img src="images/2-4.png"><h4>Sidecar</h4></a></li>
+					</ul>
+                    <!-- Slider #3 - Gim -->
+					<ul>
+						<li><a href="pages/drinks/drink31.html"><img src="images/3-1.png"><h4>Silent Siren</h4></a></li>
+						<li><a href="pages/drinks/drink32.html"><img src="images/3-2.png"><h4>Corpse Reviver</h4></a></li>
+						<li><a href="pages/drinks/drink33.html"><img src="images/3-3.png"><h4>Vesper</h4></a></li>
+						<li><a href="pages/drinks/drink34.html"><img src="images/3-4.png"><h4>Dry Martini</h4></a></li>
+					</ul>
+                    <!-- Slider #4 - Vodca -->
+					<ul>
+						<li><a href="pages/drinks/drink41.html"><img src="images/4-1.png"><h4>Woo Woo</h4></a></li>
+						<li><a href="pages/drinks/drink42.html"><img src="images/4-2.png"><h4>Cape Cod</h4></a></li>
+						<li><a href="pages/drinks/drink43.html"><img src="images/4-3.png"><h4>Kamikaze</h4></a></li>
+						<li><a href="pages/drinks/drink44.html"><img src="images/4-4.png"><h4>Sex On The Beach</h4></a></li>
+					</ul>
+                    <!-- Navegação -->
+					<nav>
+						<a href="#">Sem álcool</a>
+						<a href="#">Conhaque</a>
+						<a href="#">Gim</a>
+						<a href="#">VodKa</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<!-- JavaScript -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/catslider.js"></script>
+		
+		<script>
+		    $(function () {
+		        // Slider Begin
+		        $('#mi-slider').catslider();
+		    });
+		</script>
+
+	</body>
+</html>

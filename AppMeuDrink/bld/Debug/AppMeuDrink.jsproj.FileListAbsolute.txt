@@ -1,0 +1,13 @@
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\Debug\resources.pri
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\Debug\AppxManifest.xml
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\Debug\AppMeuDrink.build.appxrecipe
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\Debug\priconfig.xml.intermediate
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\Debug\layout.resfiles.intermediate
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\Debug\resources.resfiles.intermediate
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\Debug\pri.resfiles.intermediate
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\Debug\priconfig.xml
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\Debug\layout.resfiles
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\Debug\resources.resfiles
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\Debug\pri.resfiles
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\Debug\LanguageQualifiers.txt
+c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>POLANSKI-DELL</Machine>
+    <WindowsUser>Breno</WindowsUser>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <RegisteredManifestChecksum>A885C43965C3F750989F9915D80D820251451816CE33EEC1472F6B639175E1AD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0ea89f70-589c-47b1-8920-9eeb1a9bf33c_1.0.0.0_x86__wkv98e3gjmvmg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0ea89f70-589c-47b1-8920-9eeb1a9bf33c_wkv98e3gjmvmg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0ea89f70-589c-47b1-8920-9eeb1a9bf33c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Breno</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-28T00:42:43.779</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\css\app.css">
+      <PackagePath>css\app.css</PackagePath>
+      <Modified>2013-04-27T18:13:06.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\css\style.css">
+      <PackagePath>css\style.css</PackagePath>
+      <Modified>2013-04-28T00:39:12.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-02-13T23:24:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\about\about.css">
+      <PackagePath>pages\about\about.css</PackagePath>
+      <Modified>2013-04-24T00:48:14.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\privacy\privacy.css">
+      <PackagePath>pages\privacy\privacy.css</PackagePath>
+      <Modified>2013-04-24T01:59:06.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-04-27T18:13:43.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\about\about.html">
+      <PackagePath>pages\about\about.html</PackagePath>
+      <Modified>2013-04-28T00:20:19.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink11.html">
+      <PackagePath>pages\drinks\drink11.html</PackagePath>
+      <Modified>2013-04-27T18:14:13.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink12.html">
+      <PackagePath>pages\drinks\drink12.html</PackagePath>
+      <Modified>2013-04-27T18:14:18.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink13.html">
+      <PackagePath>pages\drinks\drink13.html</PackagePath>
+      <Modified>2013-04-27T18:14:24.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink14.html">
+      <PackagePath>pages\drinks\drink14.html</PackagePath>
+      <Modified>2013-04-27T18:14:30.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink21.html">
+      <PackagePath>pages\drinks\drink21.html</PackagePath>
+      <Modified>2013-04-27T18:14:36.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink22.html">
+      <PackagePath>pages\drinks\drink22.html</PackagePath>
+      <Modified>2013-04-27T18:14:40.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink23.html">
+      <PackagePath>pages\drinks\drink23.html</PackagePath>
+      <Modified>2013-04-27T18:14:44.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink24.html">
+      <PackagePath>pages\drinks\drink24.html</PackagePath>
+      <Modified>2013-04-27T18:14:48.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink31.html">
+      <PackagePath>pages\drinks\drink31.html</PackagePath>
+      <Modified>2013-04-27T18:14:56.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink32.html">
+      <PackagePath>pages\drinks\drink32.html</PackagePath>
+      <Modified>2013-04-27T18:15:01.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink33.html">
+      <PackagePath>pages\drinks\drink33.html</PackagePath>
+      <Modified>2013-04-27T18:15:06.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink34.html">
+      <PackagePath>pages\drinks\drink34.html</PackagePath>
+      <Modified>2013-04-27T18:15:12.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink41.html">
+      <PackagePath>pages\drinks\drink41.html</PackagePath>
+      <Modified>2013-04-27T18:15:16.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink42.html">
+      <PackagePath>pages\drinks\drink42.html</PackagePath>
+      <Modified>2013-04-27T18:15:20.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink43.html">
+      <PackagePath>pages\drinks\drink43.html</PackagePath>
+      <Modified>2013-04-28T00:11:32.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\drinks\drink44.html">
+      <PackagePath>pages\drinks\drink44.html</PackagePath>
+      <Modified>2013-04-28T00:12:25.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\privacy\privacy.html">
+      <PackagePath>pages\privacy\privacy.html</PackagePath>
+      <Modified>2013-04-28T00:39:15.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\1-1.png">
+      <PackagePath>images\1-1.png</PackagePath>
+      <Modified>2013-04-26T20:40:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\1-2.png">
+      <PackagePath>images\1-2.png</PackagePath>
+      <Modified>2013-04-26T22:33:51.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\1-3.png">
+      <PackagePath>images\1-3.png</PackagePath>
+      <Modified>2013-04-26T22:43:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\1-4.png">
+      <PackagePath>images\1-4.png</PackagePath>
+      <Modified>2013-04-26T22:45:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\2-1.png">
+      <PackagePath>images\2-1.png</PackagePath>
+      <Modified>2013-04-26T23:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\2-3.png">
+      <PackagePath>images\2-3.png</PackagePath>
+      <Modified>2013-04-26T23:57:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\2-2.png">
+      <PackagePath>images\2-2.png</PackagePath>
+      <Modified>2013-04-26T23:56:03.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\2-4.png">
+      <PackagePath>images\2-4.png</PackagePath>
+      <Modified>2013-04-27T00:00:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\3-1.png">
+      <PackagePath>images\3-1.png</PackagePath>
+      <Modified>2013-04-27T01:43:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\3-2.png">
+      <PackagePath>images\3-2.png</PackagePath>
+      <Modified>2013-04-27T01:46:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\3-3.png">
+      <PackagePath>images\3-3.png</PackagePath>
+      <Modified>2013-04-27T01:48:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\3-4.png">
+      <PackagePath>images\3-4.png</PackagePath>
+      <Modified>2013-04-27T01:50:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\4-1.png">
+      <PackagePath>images\4-1.png</PackagePath>
+      <Modified>2013-04-27T02:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\4-2.png">
+      <PackagePath>images\4-2.png</PackagePath>
+      <Modified>2013-04-27T02:08:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\4-3.png">
+      <PackagePath>images\4-3.png</PackagePath>
+      <Modified>2013-04-27T02:18:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\4-4.png">
+      <PackagePath>images\4-4.png</PackagePath>
+      <Modified>2013-04-27T02:19:26.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_1-1.png">
+      <PackagePath>images\drink_1-1.png</PackagePath>
+      <Modified>2013-04-26T20:49:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_1-2.png">
+      <PackagePath>images\drink_1-2.png</PackagePath>
+      <Modified>2013-04-26T22:34:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_1-3.png">
+      <PackagePath>images\drink_1-3.png</PackagePath>
+      <Modified>2013-04-26T22:43:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_1-4.png">
+      <PackagePath>images\drink_1-4.png</PackagePath>
+      <Modified>2013-04-26T22:45:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_2-1.png">
+      <PackagePath>images\drink_2-1.png</PackagePath>
+      <Modified>2013-04-26T23:55:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_2-3.png">
+      <PackagePath>images\drink_2-3.png</PackagePath>
+      <Modified>2013-04-26T23:58:55.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_2-2.png">
+      <PackagePath>images\drink_2-2.png</PackagePath>
+      <Modified>2013-04-26T23:56:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_2-4.png">
+      <PackagePath>images\drink_2-4.png</PackagePath>
+      <Modified>2013-04-27T00:00:13.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_3-1.png">
+      <PackagePath>images\drink_3-1.png</PackagePath>
+      <Modified>2013-04-27T01:43:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_3-2.png">
+      <PackagePath>images\drink_3-2.png</PackagePath>
+      <Modified>2013-04-27T01:46:49.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_3-3.png">
+      <PackagePath>images\drink_3-3.png</PackagePath>
+      <Modified>2013-04-27T01:48:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_3-4.png">
+      <PackagePath>images\drink_3-4.png</PackagePath>
+      <Modified>2013-04-27T01:50:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_4-1.png">
+      <PackagePath>images\drink_4-1.png</PackagePath>
+      <Modified>2013-04-27T02:07:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_4-2.png">
+      <PackagePath>images\drink_4-2.png</PackagePath>
+      <Modified>2013-04-27T02:16:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_4-3.png">
+      <PackagePath>images\drink_4-3.png</PackagePath>
+      <Modified>2013-04-27T02:18:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\drink_4-4.png">
+      <PackagePath>images\drink_4-4.png</PackagePath>
+      <Modified>2013-04-27T02:19:37.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\logo-md.png">
+      <PackagePath>images\logo-md.png</PackagePath>
+      <Modified>2013-04-27T14:00:38.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\logo-wide.png">
+      <PackagePath>images\logo-wide.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-27T14:26:30.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T18:35:55.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T18:36:49.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\snapped_logo.png">
+      <PackagePath>images\snapped_logo.png</PackagePath>
+      <Modified>2013-04-27T18:11:46.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-27T14:31:58.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T18:37:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\arrowleft.png">
+      <PackagePath>images\arrowleft.png</PackagePath>
+      <Modified>2013-04-26T23:33:40.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\js\catslider.js">
+      <PackagePath>js\catslider.js</PackagePath>
+      <Modified>2013-04-26T18:39:45.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-04-27T03:13:24.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\js\jquery.min.js">
+      <PackagePath>js\jquery.min.js</PackagePath>
+      <Modified>2013-04-26T18:40:51.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\js\modernizr.js">
+      <PackagePath>js\modernizr.js</PackagePath>
+      <Modified>2013-04-26T18:40:26.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\about\about.js">
+      <PackagePath>pages\about\about.js</PackagePath>
+      <Modified>2012-10-05T03:57:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\pages\privacy\privacy.js">
+      <PackagePath>pages\privacy\privacy.js</PackagePath>
+      <Modified>2012-10-05T04:05:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\x86\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-04-28T00:42:43.707</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

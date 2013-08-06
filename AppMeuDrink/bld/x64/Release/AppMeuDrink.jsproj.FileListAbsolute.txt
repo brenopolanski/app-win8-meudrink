@@ -1,0 +1,13 @@
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\x64\Release\resources.pri
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\x64\Release\AppxManifest.xml
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\x64\Release\AppMeuDrink.build.appxrecipe
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\x64\Release\priconfig.xml.intermediate
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\x64\Release\layout.resfiles.intermediate
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\x64\Release\resources.resfiles.intermediate
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\x64\Release\pri.resfiles.intermediate
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\x64\Release\priconfig.xml
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\x64\Release\layout.resfiles
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\x64\Release\resources.resfiles
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\x64\Release\pri.resfiles
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\x64\Release\LanguageQualifiers.txt
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\x64\Release\ProjectArchitectures.txt

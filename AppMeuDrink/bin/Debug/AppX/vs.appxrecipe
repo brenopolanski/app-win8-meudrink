@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>POLANSKI-DELL</Machine>
+    <WindowsUser>Breno</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>32708A801FC3022740330824195DB2C100116A8EA4641CA1CA7B13CDF044B450</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0ea89f70-589c-47b1-8920-9eeb1a9bf33c_1.0.0.0_neutral__wkv98e3gjmvmg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0ea89f70-589c-47b1-8920-9eeb1a9bf33c_wkv98e3gjmvmg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0ea89f70-589c-47b1-8920-9eeb1a9bf33c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Breno</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T18:42:07.102</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\css\app.css">
+      <PackagePath>css\app.css</PackagePath>
+      <Modified>2013-04-26T18:37:54.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\css\style.css">
+      <PackagePath>css\style.css</PackagePath>
+      <Modified>2013-04-26T18:38:20.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-02-13T23:24:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-04-26T18:41:27.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\logo-md.png">
+      <PackagePath>images\logo-md.png</PackagePath>
+      <Modified>2013-04-26T18:27:14.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\logo-wide.png">
+      <PackagePath>images\logo-wide.png</PackagePath>
+      <Modified>2013-04-26T18:36:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T18:35:55.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T18:36:49.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-13T23:24:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T18:37:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\js\catslider.js">
+      <PackagePath>js\catslider.js</PackagePath>
+      <Modified>2013-04-26T18:39:45.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-02-13T23:24:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\js\jquery.min.js">
+      <PackagePath>js\jquery.min.js</PackagePath>
+      <Modified>2013-04-26T18:40:51.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\js\modernizr.js">
+      <PackagePath>js\modernizr.js</PackagePath>
+      <Modified>2013-04-26T18:40:26.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-04-26T18:42:06.021</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

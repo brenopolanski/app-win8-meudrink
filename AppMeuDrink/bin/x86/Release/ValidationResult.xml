@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT OVERALL_RESULT="PASS" VERSION="2.2" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="Breno Polanski" OSVERSION="6.2.9200.0" OS="Microsoft Windows 8 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1046" VALIDATION_TYPE="CommandLine" ReportGenerationTime="27/04/2013 22:16:04" ID="ce38026513dff6666e453906ccfeb1bf">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="Teste de instalação limpa e reversível" RATIONALE="Uma instalação limpa e reversível permite aos usuários gerenciar (implantar e remover) com êxito os aplicativos em seu sistema." />
+    <REQUIREMENT NUMBER="2" TITLE="Instale nas pastas corretas de teste" RATIONALE="O Windows fornece os locais específicos no sistema de arquivos para armazenar componentes de programas e software, dados de aplicativos compartilhados e dados específicos do aplicativo para um usuário." />
+    <REQUIREMENT NUMBER="3" TITLE="Teste de arquivo assinado digitalmente" RATIONALE="Uma assinatura digital de Authenticode permite aos usuários ter certeza de que o software é autêntico. Também permite a detecção de um arquivo que tenha sido violado, como, por exemplo, infectado por um vírus." />
+    <REQUIREMENT NUMBER="4" TITLE="Suporte para teste do Windows x64" RATIONALE="Para manter a compatibilidade com as versões de 64 bits do Windows, é necessário que os aplicativos suportem aplicativos baseados no Windows de 64 bits ou, no mínimo, de 32 bits para executar diretamente o de 64 bits." />
+    <REQUIREMENT NUMBER="5" TITLE="Teste de verificação de versão do OS" RATIONALE="Os aplicativos não devem realizar verificações de versão para igualdade (== 5.1). Se precisar de um recurso específico, verifique se este está disponível. Se precisar do Windows XP, verifique Windows XP ou mais recentes (&gt;= 5.1); dessa maneira, seu código de detecção continuará a funcionar em versões posteriores do Windows. Os instaladores de drivers e os módulos de desinstalação nunca devem verificar a versão do SO." />
+    <REQUIREMENT NUMBER="6" TITLE="Teste de controle da conta do usuário (UAC)" RATIONALE="A maioria dos aplicativos não requer privilégios do administrador em tempo de execução e deve executar tão bem quanto um usuário padrão. Os aplicativos do Windows devem possuir um manifesto(incorporado ou externo) para definir seu nível de execução, que informa ao SO os privilégios necessários para executar o aplicativo." />
+    <REQUIREMENT NUMBER="7" TITLE="Siga as mensagens do gerenciador de reinicialização do sistema" RATIONALE="Em um encerramento crítico, os aplicativos que retornam de FALSE para WM_QUERYENDSESSION serão enviados WM_ENDSESSION e encerrados, enquanto aqueles que ficaram por um tempo sem resposta WM_QUERYENDSESSION serão encerrados." />
+    <REQUIREMENT NUMBER="8" TITLE="Teste de modo seguro" RATIONALE="Por padrão, a maioria dos drivers e serviços que não vêm pré-instalados com o Windows não é iniciada no Modo de Segurança. Eles devem continuar desabilitados a menos que sejam necessários para operações básicas do sistema ou para recuperação e diagnóstico." />
+    <REQUIREMENT NUMBER="9" TITLE="Teste de sessão multiusuário" RATIONALE="Os usuários devem poder executar sessões simultâneas sem que ocorram conflitos ou interrupções.  Os aplicativos devem garantir que, ao executar em várias sessões, localmente e remotamente, a funcionalidade normal do aplicativo não seja afetada. As configurações do aplicativo e os arquivos de dados não devem persistir entre os usuários. As preferências e a privacidade do usuário devem ser isoladas da sessão do usuário." />
+    <REQUIREMENT NUMBER="10" TITLE="Teste de falhas e travamentos" RATIONALE="Falhas do aplicativo, como panes e travamentos, representam a interrupção mais frequente para usuários e os deixam frustrados. A eliminação de tais falhas aumenta a estabilidade e a confiabilidade do aplicativo e, de maneira geral, oferece uma experiência otimizada com o aplicativo.">
+      <TEST INDEX="47" NAME="Testes de início do aplicativo" DESCRIPTION="Testes de início do aplicativo." EXECUTIONTIME="00h:00m:22s.73ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="21" NAME="Panes e travamentos" DESCRIPTION="Não travam ou sofrem panes durante o processo de testes." EXECUTIONTIME="00h:00m:07s.00ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="11" TITLE="Teste de compatibilidade e resiliência" RATIONALE="Quando o Windows detecta que um aplicativo operou de maneira incompatível, aplica-se uma correção de compatibilidade que faz com que o aplicativo funcione corretamente, garantindo uma experiência positiva ao usuário. Os aplicativos não devem depender desse comportamento, já que este somente é fornecido a fim de permitir que os aplicativos herdados funcionem corretamente no Windows." />
+    <REQUIREMENT NUMBER="12" TITLE="Teste de conformidade do manifesto do aplicativo" RATIONALE="No manifesto de pacote, estavam faltando um ou mais dos atributos solicitados.">
+      <TEST INDEX="31" NAME="Manifesto do aplicativo" DESCRIPTION="O manifesto do aplicativo deve incluir entradas válidas para todos os campos solicitados." EXECUTIONTIME="00h:00m:02s.95ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="13" TITLE="Teste de práticas recomendadas de segurança do Windows" RATIONALE="Um aplicativo não deve alterar as configurações de segurança padrão do Windows." />
+    <REQUIREMENT NUMBER="14" TITLE="Teste de recursos de segurança do Windows" RATIONALE="Os aplicativos devem optar pelos recursos de segurança do Windows.">
+      <TEST INDEX="33" NAME="Analisador do binário" DESCRIPTION="Análise dos recursos de segurança habilitados nos binários" EXECUTIONTIME="00h:00m:02s.49ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="62" NAME="Assinatura de Código Privado" DESCRIPTION="O aplicativo não deve armazenar arquivos de chave com assinaturas de código privado." EXECUTIONTIME="00h:00m:01s.30ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="Teste de API compatível" RATIONALE="Os aplicativos devem consultar somente as APIs permitidas pelo SDK do Windows para Aplicativos da Loja do Windows.">
+      <TEST INDEX="38" NAME="APIs compatíveis" DESCRIPTION="O Aplicativo da Loja do Windows deve usar somente APIs de plataforma compatíveis." EXECUTIONTIME="00h:00m:03s.39ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="Teste de desempenho" RATIONALE="O aplicativo deve ter uma inicialização rápida e com capacidade de resposta e uma experiência de suspensão, ao mesmo tempo que consome uma quantidade razoável de recursos do sistema (CPU, E/S de arquivo, memória, etc.) a fim de permitir uma rápida comutação e multitarefas entre os aplicativos anteriormente não abertos.">
+      <TEST INDEX="50" NAME="Geração de código de bytes" DESCRIPTION="A geração do código de bytes deve poder ser concluída com sucesso em pacotes que contêm um aplicativo HTML5 da Loja do Windows." EXECUTIONTIME="00h:00m:01s.94ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="60" NAME="Referências de Associação Otimizadas" DESCRIPTION="Ao usar associações, WinJS.Binding.optimizeBindingReferences deve ser definido como verdadeiro para otimizar o uso da memória." EXECUTIONTIME="00h:00m:01s.72ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="43" NAME="Inicialização de desempenho" DESCRIPTION="O aplicativo deve possuir um tempo de inicialização com capacidade de resposta associado a uma CPU razoável, bem como uso de E/S de arquivo e de memória" EXECUTIONTIME="00h:02m:11s.07ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="44" NAME="Suspensão de desempenho" DESCRIPTION="O aplicativo deve possuir um tempo de suspensão com capacidade de resposta e com uma CPU razoável e uso de E/S de arquivo" EXECUTIONTIME="00h:01m:21s.29ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="Testes de recursos de manifesto do aplicativo" RATIONALE="O Manifesto do pacote Appx deve ter recursos válidos definidos no arquivo resources.pri, conforme a Especificação do pacote de Appx e o Esquema de manifesto de Appx.">
+      <TEST INDEX="45" NAME="Validação de recursos do aplicativo" DESCRIPTION="O pacote deve possuir recursos válidos definidos no arquivo resources.pri." EXECUTIONTIME="00h:00m:00s.79ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="61" NAME="Validação de identidade visual" DESCRIPTION="O aplicativo não deve usar imagens padrão armazenadas por amostras do Windows SDK ou Visual Studio." EXECUTIONTIME="00h:00m:02s.71ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="Teste de configuração de depuração" RATIONALE="O Aplicativo não deve instalar quaisquer binários de depuração.">
+      <TEST INDEX="46" NAME="Configuração de depuração" DESCRIPTION="O Aplicativo não deve instalar quaisquer binários de depuração." EXECUTIONTIME="00h:00m:02s.49ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="Codificação de arquivo" RATIONALE="Os pacotes que contêm um aplicativo HTML5 da Loja do Windows precisam apresentar a codificação correta do arquivo.">
+      <TEST INDEX="49" NAME="Codificação de arquivo UTF-8" DESCRIPTION="Os pacotes que contêm um aplicativo HTML5 da Loja do Windows precisam apresentar a codificação correta do arquivo." EXECUTIONTIME="00h:00m:01s.50ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="22" TITLE="Suporte no nível do recurso Direct3D" RATIONALE="Os aplicativos devem renderizar o conteúdo no hardware do nível de recurso Direct3D 9.1.">
+      <TEST INDEX="51" NAME="Suporte no nível do recurso Direct3D" DESCRIPTION="Os aplicativos devem renderizar o conteúdo no hardware do nível de recurso Direct3D 9.1." EXECUTIONTIME="00h:00m:00s.99ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="Teste de recursos do aplicativo" RATIONALE="Pacotes declarando recursos de uso especial precisarão fornecer justificativas durante o processo de integração.">
+      <TEST INDEX="52" NAME="Recursos de uso especial" DESCRIPTION="Pacotes declarando recursos de uso especial precisarão fornecer justificativas durante o processo de integração." EXECUTIONTIME="00h:00m:01s.48ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Validação de metadados do Tempo de Execução do Windows" RATIONALE="Os metadados precisam estar de acordo e consistentes em todas as origens de geração.">
+      <TEST INDEX="56" NAME="Teste do atributo ExclusiveTo" DESCRIPTION="Uma classe não deve implementar uma interface que esteja marcada como ExclusiveTo para outra classe." EXECUTIONTIME="00h:00m:01s.12ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="57" NAME="Teste de localização de tipo" DESCRIPTION="Os tipos devem ser definidos no arquivo de metadados com o maior namespace correspondente." EXECUTIONTIME="00h:00m:00s.65ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="55" NAME="Teste de diferenciação de maiúsculas e minúsculas de nome de tipo" DESCRIPTION="Namespace e nomes de tipo não devem variar apenas por maiúsculas e minúsculas." EXECUTIONTIME="00h:00m:00s.67ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="54" NAME="Teste de correção do nome do tipo" DESCRIPTION="Somente tipos de sistema podem estar no namespace do Windows e nenhum tipo pode estar no namespace global." EXECUTIONTIME="00h:00m:00s.68ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="58" NAME="Teste de correção de metadados gerais" DESCRIPTION="Os arquivos de metadados devem cumprir vários requisitos para serem válidos e corretos." EXECUTIONTIME="00h:00m:01s.51ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="53" NAME="Teste de propriedades" DESCRIPTION="As propriedades e o indexador somente gravação não podem ser usados. Os métodos getter e setter correspondentes devem corresponder em tipo." EXECUTIONTIME="00h:00m:00s.65ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="8228BrenoPolanski.MeuDrink" Type="Application" Source="AppxPackage" Publisher="CN=D1AF1347-E0D7-4CB2-9C97-660500095CD2" Version="1.0.0.0" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\8228BrenoPolanski.MeuDrink_1.0.0.0_neutral__k2ma5phfhkcvw" PathEvidenceId="0x1e58" RNP="0x1" DNP="0xd" EvidenceId="0x1e58" Id="00007c71134d266f9126930891fd145ef03400000904">
+        <Indicators>
+          <DirectoryIndicators>
+            <Directory Name="pages" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages" RNP="0x9" DNP="0xb" UniqueId="0x1e64" Id="000019ff601290dc13568ff4c70ea07fd47a73f13ab3" />
+            <Directory Name="about" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\about" RNP="0x9" DNP="0xb" UniqueId="0x1e65" Id="000095a89a47482232b8213a02fc7ed3162546ee0da4" />
+            <Directory Name="8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw" RNP="0x9" DNP="0xb" UniqueId="0x1e59" Id="0000de56dc1afae479c215c4d141b078e4cf1bd17d52" />
+            <Directory Name="privacy" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\privacy" RNP="0x9" DNP="0xb" UniqueId="0x1e79" Id="00008d3ed568bf181aa920a535ac45d7d18e4025082e" />
+            <Directory Name="drinks" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0x9" DNP="0xb" UniqueId="0x1e68" Id="00002acaabbb65fd409a469a5085290a4dd4bdeaa799" />
+            <Directory Name="js" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\js" RNP="0x9" DNP="0xb" UniqueId="0x1e5d" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+          </DirectoryIndicators>
+          <PackageManifestIndicator>
+            <PackageManifest PackageFullName="8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw" />
+            <Identity Name="8228BrenoPolanski.MeuDrink" Version="1.0.0.0" Publisher="CN=D1AF1347-E0D7-4CB2-9C97-660500095CD2" ProcessorArchitecture="neutral" />
+            <Dependencies>
+              <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20602" />
+            </Dependencies>
+            <Properties>
+              <DisplayName>Meu Drink</DisplayName>
+              <PublisherDisplayName>Breno Polanski</PublisherDisplayName>
+              <Logo>images\storelogo.png</Logo>
+            </Properties>
+            <Resources>
+              <Resource Language="PT-BR" />
+            </Resources>
+            <Prerequisites>
+              <OSMinVersion>6.2.1</OSMinVersion>
+              <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+            </Prerequisites>
+          </PackageManifestIndicator>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="0000b339aef7c86c095c5472e268537f3af473c43555">
+            <File Name="privacy.js" Id="0000adf4d85718458a36def2818e473db0389ba5d183" Size="0x32a" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\privacy" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\privacy\privacy.js" LongPathHash="0000fb789831eca2e92954def5aab7073631906ed751" UniqueId="0x1e7b" />
+            <File Name="jquery.min.js" Id="00009921559861e418ed537b25455a0a3e3a5f14a2fd" ShortName="JQUERY~1.JS" Size="0x18868" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\js\jquery.min.js" LongPathHash="00006725bab2b8b5e5b67842292222de403b40e6f073" UniqueId="0x1e60" />
+            <File Name="about.js" Id="0000284ba3a0c8cbd063186776620f9af578ecdd82e3" Size="0x326" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\about" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\about\about.js" LongPathHash="000011f2de1b54eb87cb25776a7c9ee8e719e9ef8353" UniqueId="0x1e67" />
+            <File Name="catslider.js" Id="000066c9da24023a14a88d955334cd6032a68a217a15" ShortName="CATSLI~1.JS" Size="0x1391" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\js\catslider.js" LongPathHash="00004db196066a2f9ad8c90d8bb56aaaa77d55348f8f" UniqueId="0x1e5e" />
+            <File Name="drink42.html" Id="00005d8c0927e799930ae9329331a13e764dc1831818" ShortName="DRINK4~2.HTM" Size="0xbe7" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink42.html" LongPathHash="0000fc58a0eaf1a034c500cd3c3aaa569ccb312654e8" UniqueId="0x1e76" />
+            <File Name="default.js" Id="0000531aa5b103677c8a65819334ce03e7e40ea19c80" Size="0xfc9" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\js\default.js" LongPathHash="0000a6cab27b6f93a9284ea9d19f213f9ee1c85ed219" UniqueId="0x1e5f" />
+            <File Name="drink12.html" Id="0000aeb899e9091e193cfe93d00396393c3593dce312" ShortName="DRINK1~2.HTM" Size="0xc34" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink12.html" LongPathHash="00007eaab986a47e1ad34871b3923470cecf225f8f23" UniqueId="0x1e6a" />
+            <File Name="drink21.html" Id="00009382f8bb2d5d74163b6a5fe07bea0605847eb773" ShortName="DRINK2~1.HTM" Size="0xd00" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink21.html" LongPathHash="00004ca115e83d83d57a786a553e64f1871977da2360" UniqueId="0x1e6d" />
+            <File Name="drink33.html" Id="00000382dbec5295920593080faaf23ad18af67c12f0" ShortName="DRINK3~3.HTM" Size="0xc64" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink33.html" LongPathHash="0000ff4d959a070bdea42da9cb105d079687afa0533f" UniqueId="0x1e73" />
+            <File Name="drink34.html" Id="00000cef07dd3d35545b40a61aeeebb514751ffda516" ShortName="DRINK3~4.HTM" Size="0xd47" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink34.html" LongPathHash="000029aacca89f07500cca57d56132ce73a12b024acd" UniqueId="0x1e74" />
+            <File Name="drink22.html" Id="00008a59bf5e1504bf13d9f901dbbfffe02ce12093b6" ShortName="DRINK2~2.HTM" Size="0xbc3" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink22.html" LongPathHash="0000e962a9c1fbee4ebce95ee79624f8c5412ac16206" UniqueId="0x1e6e" />
+            <File Name="about.html" Id="0000261ef9ba78ae008dc419b9e7cc9c62edf3b848db" ShortName="ABOUT~1.HTM" Size="0x5ef" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\about" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\about\about.html" LongPathHash="000074dfa89a49c893571af729a75e28933ceb1eac90" UniqueId="0x1e66" />
+            <File Name="drink31.html" Id="0000e8a78c198d7e7ba819dba6f34bfda59f6851407b" ShortName="DRINK3~1.HTM" Size="0xc24" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink31.html" LongPathHash="000054806850f6dcc37fd883bec0a34deed4a71160e4" UniqueId="0x1e71" />
+            <File Name="modernizr.js" Id="00008ec391a9b5566c836bd428c038e299015fbe4551" ShortName="MODERN~1.JS" Size="0x26fb" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\js\modernizr.js" LongPathHash="000004b644a82dbba12fc19ada7877330442bcbf0adf" UniqueId="0x1e61" />
+            <File Name="drink11.html" Id="0000b46755a3ef684ff1e53a120873f1cbcd9608ddbf" ShortName="DRINK1~1.HTM" Size="0xddb" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink11.html" LongPathHash="000047bcb6388ecb425df37c62cb46ef8437b987c951" UniqueId="0x1e69" />
+            <File Name="drink24.html" Id="00004528676552c213bea0cfe1fb01c447c1e48bf5dc" ShortName="DRINK2~4.HTM" Size="0xbcf" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink24.html" LongPathHash="0000696f149b80e7fa7cbdd04e7ee1033702284e6afb" UniqueId="0x1e70" />
+            <File Name="drink14.html" Id="00004ea83f450fd01b776657357e3855e6bb9a7c873a" ShortName="DRINK1~4.HTM" Size="0xba5" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink14.html" LongPathHash="0000a2b062cc04a1bc7f1433918688d55ce192dd6acd" UniqueId="0x1e6c" />
+            <File Name="drink41.html" Id="0000eb8b339602a5b57844f778ef3dfde5e1e19494d2" ShortName="DRINK4~1.HTM" Size="0xbcb" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink41.html" LongPathHash="000056b6d127a46484105b02db24c4080304c00611ad" UniqueId="0x1e75" />
+            <File Name="drink32.html" Id="00006a940c60015d40e083d4f41b168b03e049172e1e" ShortName="DRINK3~2.HTM" Size="0xc10" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink32.html" LongPathHash="0000aaf633707f47311381c8335d3f059868a31dc5f4" UniqueId="0x1e72" />
+            <File Name="drink43.html" Id="000018292089649816e74f2808fa9a18a9dc027ceffd" ShortName="DRINK4~3.HTM" Size="0xbf0" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink43.html" LongPathHash="00009c909cc1c2161e6639696ac9161d524185ab4598" UniqueId="0x1e77" />
+            <File Name="privacy.html" Id="000020d18d93ef044f0b776a94d01af4047594fd6a81" ShortName="PRIVAC~1.HTM" Size="0x4b3" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\privacy" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\privacy\privacy.html" LongPathHash="00008b8c7513857df23780db4c50bab8e6b7552a4915" UniqueId="0x1e7a" />
+            <File Name="default.html" Id="0000a8d885237a8fbdb7e5f00f7b17676aeec5c436f3" ShortName="DEFAUL~1.HTM" Size="0xfeb" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\default.html" LongPathHash="0000eb585cf26d138d05eaeda79dcaed2611af269ecc" UniqueId="0x1e5a" />
+            <File Name="drink13.html" Id="000042757fd4fc70ef5438018383c0813fdb2f97a6f1" ShortName="DRINK1~3.HTM" Size="0xc92" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink13.html" LongPathHash="0000f9e65728d8cc8c443d2c682a5f2cef2bf48e48ea" UniqueId="0x1e6b" />
+            <File Name="drink23.html" Id="0000a6a8b166a89dca59a87b4531c08296cf21df3e26" ShortName="DRINK2~3.HTM" Size="0xc41" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink23.html" LongPathHash="000098d4456bf0948d9ff7b716ab7dc2bb339d6a203b" UniqueId="0x1e6f" />
+            <File Name="drink44.html" Id="00009249d218c2676a2ec82d75da3697d1d79b48f862" ShortName="DRINK4~4.HTM" Size="0xc5a" BinaryType="UNKNOWN" Created="04/28/2013 01:08:30" Modified="04/28/2013 01:08:30" Path="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\8228brenopolanski.meudrink_1.0.0.0_neutral__k2ma5phfhkcvw\pages\drinks\drink44.html" LongPathHash="000091e97f3e3d063931c78ebc7b3ebe51d16f304272" UniqueId="0x1e78" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis ProgramId="00007c71134d266f9126930891fd145ef03400000904" AnalysisVersion="1.54" DictionaryVersion="1.6" Type="Package" Id="8228BrenoPolanski.MeuDrink_1.0.0.0_neutral__k2ma5phfhkcvw">
+      <AitFile ErrorCode="0" Name="drink33.html" Id="00000382dbec5295920593080faaf23ad18af67c12f0">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink34.html" Id="00000cef07dd3d35545b40a61aeeebb514751ffda516">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink43.html" Id="000018292089649816e74f2808fa9a18a9dc027ceffd">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="privacy.html" Id="000020d18d93ef044f0b776a94d01af4047594fd6a81">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.show" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="about.html" Id="0000261ef9ba78ae008dc419b9e7cc9c62edf3b848db">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.show" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="about.js" Id="0000284ba3a0c8cbd063186776620f9af578ecdd82e3">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.Pages.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink13.html" Id="000042757fd4fc70ef5438018383c0813fdb2f97a6f1">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink24.html" Id="00004528676552c213bea0cfe1fb01c447c1e48bf5dc">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink14.html" Id="00004ea83f450fd01b776657357e3855e6bb9a7c873a">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="default.js" Id="0000531aa5b103677c8a65819334ce03e7e40ea19c80">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Application.sessionState" />
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.populateSettings" />
+          <AitFeature Name="WinJS.UI.processAll" />
+          <AitFeature Name="Windows.ApplicationModel.Activation" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationView.value" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationViewState" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink42.html" Id="00005d8c0927e799930ae9329331a13e764dc1831818">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="catslider.js" Id="000066c9da24023a14a88d955334cd6032a68a217a15" />
+      <AitFile ErrorCode="0" Name="drink32.html" Id="00006a940c60015d40e083d4f41b168b03e049172e1e">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink22.html" Id="00008a59bf5e1504bf13d9f901dbbfffe02ce12093b6">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="modernizr.js" Id="00008ec391a9b5566c836bd428c038e299015fbe4551" />
+      <AitFile ErrorCode="0" Name="drink44.html" Id="00009249d218c2676a2ec82d75da3697d1d79b48f862">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink21.html" Id="00009382f8bb2d5d74163b6a5fe07bea0605847eb773">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.min.js" Id="00009921559861e418ed537b25455a0a3e3a5f14a2fd" />
+      <AitFile ErrorCode="0" Name="drink23.html" Id="0000a6a8b166a89dca59a87b4531c08296cf21df3e26">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="default.html" Id="0000a8d885237a8fbdb7e5f00f7b17676aeec5c436f3">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="privacy.js" Id="0000adf4d85718458a36def2818e473db0389ba5d183">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.Pages.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink12.html" Id="0000aeb899e9091e193cfe93d00396393c3593dce312">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink11.html" Id="0000b46755a3ef684ff1e53a120873f1cbcd9608ddbf">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink31.html" Id="0000e8a78c198d7e7ba819dba6f34bfda59f6851407b">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="drink41.html" Id="0000eb8b339602a5b57844f778ef3dfde5e1e19494d2">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

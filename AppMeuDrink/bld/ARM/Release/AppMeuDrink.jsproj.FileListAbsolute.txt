@@ -1,0 +1,9 @@
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\ARM\Release\resources.pri
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\ARM\Release\AppxManifest.xml
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bin\ARM\Release\AppMeuDrink.build.appxrecipe
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\ARM\Release\priconfig.xml
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\ARM\Release\layout.resfiles
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\ARM\Release\resources.resfiles
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\ARM\Release\pri.resfiles
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\ARM\Release\LanguageQualifiers.txt
+C:\Users\Breno\documents\visual studio 2012\Projects\AppMeuDrink\AppMeuDrink\bld\ARM\Release\ProjectArchitectures.txt

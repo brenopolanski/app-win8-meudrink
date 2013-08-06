@@ -1,0 +1,102 @@
+﻿<!doctype html>
+<html lang="pt-br" class="no-js">
+	<head>
+
+		<!-- Metas -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Meu Drink</title>
+
+        <!-- WinJS references -->
+        <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+        <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+        <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+        <!-- AppMeuDrink references -->
+        <link href="../../css/default.css" rel="stylesheet" />
+        <script src="../../js/default.js"></script>
+
+		<!-- Style CSS -->
+		<link rel="stylesheet" href="../../css/app.css">
+		<style>		
+		</style>
+
+		<!--
+			Biblioteca Modernizr
+			site: http://modernizr.com/
+			descrição: O Modernizr, uma compacta biblioteca Javascript, oferece uma abordagem diferente 
+			para o uso de novas tecnologias do HTML e CSS. Em vez de basear a renderização de
+			uma propriedade no que é declarado pelo agente do navegador, ele de fato testa a
+			presença da propriedade no próprio navegador do usuário (em questão de
+			milissegundos) e armazena o resultado do teste numa variável dentro de um script.
+		-->
+		<script src="../../js/modernizr.js"></script>
+		<style>
+			.mi-slider ul {
+				list-style-type: none;
+				position: absolute;
+				width: 100%;
+				left: 0;
+				bottom: 0;
+				overflow: hidden;
+				text-align: center;
+				pointer-events: none;
+			}
+
+			.mi-slider ul li h4 {
+				text-align: justify;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+        <!-- Image Snapped -->
+        <div id="snappedMode" style="visibility: hidden;">
+            <img id="imgSnapped" src="../../images/snapped_logo.png">
+        </div>
+
+		<div id="container" class="container">
+			<header class="clearfix">
+                <a style="float: left; margin-right: 20px;" href="../../default.html"><img src="../../images/arrowleft.png"></a>
+				<h1>Choconhaque</h1>
+			</header>
+			<div class="main">
+				<div id="mi-slider" class="mi-slider">
+					<!-- Drink #2-1 -->
+					<ul>
+						<li><img src="../../images/drink_2-1.png"></li>
+						<li>
+							<h4>
+								&bull; 1 litro de leite integral; <br>
+								&bull; ½ lata de leite condensado; <br>
+								&bull; 1 colher de essência de baunilha; <br>
+								&bull; 2 colheres de amido de milho; <br>
+								&bull; 200 gramas de chocolate meio amargo picado; <br>
+								&bull; 3 doses (150 ml) de conhaque.
+							</h4>
+                            <p class="clearfix">&nbsp;</p>
+						</li>
+						<li>
+							<h4>Coloque todos os ingredientes, menos o conhaque, em uma panela. Ferva por aproximadamente 10 minutos, ou até que o caldo fique levemente grosso. Desligue o fogo, acrescente o conhaque e misture bem. O choconhaque pode ser servido quente ou morno e é uma ótima bebida para ser tomada em grupo.</h4>
+                            <p class="clearfix">&nbsp;</p>
+						</li>				
+					</ul>					
+				</div>
+			</div>
+		</div>
+
+		<!-- JavaScript -->
+		<script src="../../js/jquery.min.js"></script>
+		<script src="../../js/catslider.js"></script>
+		
+		<script>
+		    $(function () {
+		        // Slider Begin
+		        $('#mi-slider').catslider();
+		    });
+		</script>
+
+	</body>
+</html>

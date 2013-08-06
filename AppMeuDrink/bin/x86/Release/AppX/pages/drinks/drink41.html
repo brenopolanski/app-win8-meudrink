@@ -1,0 +1,99 @@
+﻿<!doctype html>
+<html lang="pt-br" class="no-js">
+	<head>
+
+		<!-- Metas -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Meu Drink</title>
+
+        <!-- WinJS references -->
+        <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+        <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+        <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+        <!-- AppMeuDrink references -->
+        <link href="../../css/default.css" rel="stylesheet" />
+        <script src="../../js/default.js"></script>
+
+		<!-- Style CSS -->
+		<link rel="stylesheet" href="../../css/app.css">
+		<style>		
+		</style>
+
+		<!--
+			Biblioteca Modernizr
+			site: http://modernizr.com/
+			descrição: O Modernizr, uma compacta biblioteca Javascript, oferece uma abordagem diferente 
+			para o uso de novas tecnologias do HTML e CSS. Em vez de basear a renderização de
+			uma propriedade no que é declarado pelo agente do navegador, ele de fato testa a
+			presença da propriedade no próprio navegador do usuário (em questão de
+			milissegundos) e armazena o resultado do teste numa variável dentro de um script.
+		-->
+		<script src="../../js/modernizr.js"></script>
+		<style>
+			.mi-slider ul {
+				list-style-type: none;
+				position: absolute;
+				width: 100%;
+				left: 0;
+				bottom: 0;
+				overflow: hidden;
+				text-align: center;
+				pointer-events: none;
+			}
+
+			.mi-slider ul li h4 {
+				text-align: justify;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+        <!-- Image Snapped -->
+        <div id="snappedMode" style="visibility: hidden;">
+            <img id="imgSnapped" src="../../images/snapped_logo.png">
+        </div>
+
+		<div id="container" class="container">
+			<header class="clearfix">
+                <a style="float: left; margin-right: 20px;" href="../../default.html"><img src="../../images/arrowleft.png"></a>
+				<h1>Woo Woo</h1>
+			</header>
+			<div class="main">
+				<div id="mi-slider" class="mi-slider">
+					<!-- Drink #4-1 -->
+					<ul>
+						<li><img src="../../images/drink_4-1.png"></li>
+						<li>
+							<h4>
+								&bull; 2 doses (100ml) de vodka; <br>
+								&bull; 1 dose (50ml) de Schnapps (um tipo de licor) sabor pêssego; <br>
+								&bull; 4 doses (200ml) de suco de cranberry.
+							</h4>
+                            <p class="clearfix">&nbsp;</p>
+						</li>
+						<li>
+							<h4>Adicione todos os ingredientes num copo longo (highball) com 3/4 de gelo, misture e sirva. Enfeite com uma fatia de limão.</h4>
+                            <p class="clearfix">&nbsp;</p>
+						</li>				
+					</ul>					
+				</div>
+			</div>
+		</div>
+
+		<!-- JavaScript -->
+		<script src="../../js/jquery.min.js"></script>
+		<script src="../../js/catslider.js"></script>
+		
+		<script>
+		    $(function () {
+		        // Slider Begin
+		        $('#mi-slider').catslider();
+		    });
+		</script>
+
+	</body>
+</html>

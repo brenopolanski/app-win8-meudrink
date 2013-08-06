@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="8228BrenoPolanski.MeuDrink" Version="1.0.0.2" Publisher="CN=D1AF1347-E0D7-4CB2-9C97-660500095CD2" />
+  <Properties>
+    <DisplayName>Meu Drink</DisplayName>
+    <PublisherDisplayName>Breno Polanski</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Meu Drink" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="O aplicativo Meu Drink oferece para seus usuários as melhores receitas de drinks. É também onde você pode encontrar receitas de coquetéis que ainda não experimentou, usando aquele ingrediente que você não sabia ainda como aproveitar, nem que poderia funcionar como um drink. Bons drinks!" ForegroundText="dark" BackgroundColor="#e6e6e6">
+        <DefaultTile ShowName="allLogos" WideLogo="images\logo-wide.png" />
+        <SplashScreen Image="images\splashscreen.png" BackgroundColor="#e6e6e6" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
